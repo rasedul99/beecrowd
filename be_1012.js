@@ -1,0 +1,15 @@
+const input = "3.0 4.0 5.2";
+const lines = input.split(" ");
+const A = parseFloat(lines.shift());
+const B = parseFloat(lines.shift());
+const C = parseFloat(lines.shift());
+const TRIANGULO = (1.0 / 2) * A * C;
+const CIRCULO = 3.14159 * (C * C);
+const TRAPEZIO = ((A + B) * C) / 2;
+const QUADRADO = B * B;
+const RETANGULO = A * B;
+console.log("TRIANGULO:", TRIANGULO.toFixed(3));
+console.log("CIRCULO:", CIRCULO.toFixed(3));
+console.log("TRAPEZIO:", TRAPEZIO.toFixed(3));
+console.log("QUADRADO:", QUADRADO.toFixed(3));
+console.log("RETANGULO:", RETANGULO.toFixed(3));

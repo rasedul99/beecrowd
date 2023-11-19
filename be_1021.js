@@ -19,11 +19,7 @@ const [pointFifty, remainingAfterPointFifty] = calculateAmount(remainingAfterOne
 const [pointTweentyFive, remainingAfterPointTweentyFive] = calculateAmount(remainingAfterPointFifty, 0.25);
 const [pointTen, remainingAfterPointTen] = calculateAmount(remainingAfterPointTweentyFive, 0.10);
 const [pointZeroFive, remainingAfterPointZeroFive] = calculateAmount(remainingAfterPointTen, 0.05);
-console.log(remainingAfterPointZeroFive);
 const [pointZeroOne, remainingAfterPointZeroOne] = calculateAmount(remainingAfterPointZeroFive, 0.01);
-console.log(pointZeroOne);
-
-
 console.log("NOTAS:");
 console.log(hundred, "nota(s) de R$ 100.00");
 console.log(fifty, "nota(s) de R$ 50.00");
